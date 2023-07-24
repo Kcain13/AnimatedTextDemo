@@ -1,4 +1,4 @@
-/* const boxOfCards = document.querySelector(".box-of-cards");
+const boxOfCards = document.querySelector(".box-of-cards");
 
 
 const restartGame = document.querySelector(".restart-game");
@@ -105,12 +105,12 @@ for (let i = 0; i < cardCount; i++) {
     colorList.splice(colorIndex, 1);
     // append the card to the container
     boxOfCards.appendChild(card);
-} */
+} 
 
 
 
 
-const gameContainer = document.querySelector('#game');
+/* const gameContainer = document.querySelector('#game');
 
 // creating restart game button
 const restartGame = document.querySelector('.restart-game')
@@ -264,4 +264,4 @@ function handleCardClick(event) {
 }
 bestScoreElement.innerHTML = bestScoreValue === Infinity ? "0" : bestScoreValue;
 // when the DOM loads
-createDivsForColors(shuffledColors); 
+createDivsForColors(shuffledColors);  */
